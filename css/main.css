@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    BU QISM ASLIDA SECTION "#CONTENT" CLASSIGA YOZILADI.
+    LEKIN HOZIR FAQAT SHU QISMNI QILAYOTGANIM UCHUN
+    BODYGA BERDIM. AGAR BUTUN SAYTNI TO'LIQ YASAYDIGAN 
+    BO'LSAK BUNDAY QILINMAYDI.
+    */
+
+.container {
+    width: 897px;
+    margin: 0 auto;
+}
+
+#content {
+    padding: 95px 0px 125px 0px;
+    margin: 0px 226px;
+}
+
+.heading {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: 700px;
+    color: #333;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.reasons-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons-item {
+    padding: 30px 35px;
+    width: 847px;
+    background-color: #2e2c9c;
+    margin: 10px 0px;
+}
+
+.reasons-item>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-portion {
+    width: 700px;
+}
+
+.ruler::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 88px;
+    background-image: url('../images/ruler-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.conculting::before {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 88px;
+    background-image: url('../images/consulting-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.bottle::before {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 88px;
+    background-image: url('../images/bottle-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.reasons-title {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    font-size: 20px;
+    padding: 5px 0px 0px;
+    color: #fff;
+}
+
+.reasons-text {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    color: #fff;
+}
